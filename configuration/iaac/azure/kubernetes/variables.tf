@@ -7,14 +7,12 @@ variable environment {
 }
 
 variable location {
-    default = "westeurope"
+    default = "eastasia"
 }
 
 variable node_count {
-  default = 2
+  default = 3
 }
-
-
 
 variable dns_prefix {
   default = "k8stest"
